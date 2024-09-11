@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up/ Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h2 id="signtxt">Sign Up</h2>
+            <div class="req">
+                <input type="text" placeholder="Username" id="username" required>
+                <input type="email" placeholder="test@gmail.com" id="email" required>
+                <input type="password" placeholder="Password" id="password" required>
+                <span id="show" onclick="showPassword()">show</span>
+            </div>
+            <p id="submit" onclick="validateForm()">Create Account</p>
+            <div class="log">
+                <div class="terms">
+                    <input type="checkbox" id="box" required>
+                    <p>Do you agree to our <span>terms and conditions</span>?</p>
+                </div>
+                <p id="logtxt">Already have have account? <span id="login" onclick="pageSwitch()">Log in</span></p>
+            </div>
+        </form>
+        <div class="error">
+            <p id="errorContent">Please Fill All Required Fields</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

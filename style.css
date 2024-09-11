@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    background: url(assets/background.png) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.container form{
+    background: white;
+    color: black;
+    padding: 80px 80px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form h2{
+    font-weight: 600;
+}
+.req{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+.req input{
+    width: 100%;
+    outline-color:rgb(0, 255, 55);
+    padding: 4px 0;
+    border-radius: 4px;
+}
+.req span{
+    position: absolute;
+    margin-top: 119px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+#submit{
+    border: none;
+    background: rgba(0, 0, 255, 0.849);
+    color: white;
+    cursor: pointer;
+    padding: 8px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 10px;
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.terms span{
+    color: aqua;
+    cursor: pointer;
+}
+.log p span{
+    color: aqua;
+    cursor: pointer;
+}
+.error{
+    position: absolute;
+    background: white;
+    padding: 20px 60px;
+    top: 5%;
+    left: 73%;
+    text-align: center;
+    color: red;
+    border-radius: 10px;
+    display: none;
+}
+.error:hover{
+    display: block;
+}
