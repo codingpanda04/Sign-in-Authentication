@@ -29,7 +29,7 @@ function pageSwitch(){
 }
 
 function SignPage(){
-    window.location.href = "index.html";
+    window.location.href = "https://side-menu.onrender.com/";
 }
 
 username.addEventListener("input", ()=>{
