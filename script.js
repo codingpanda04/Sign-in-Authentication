@@ -68,7 +68,7 @@ function validateForm(){
     }
     else{
         errorMsg.style.display = "none";
-        window.location.href = "dashboard.html";
+        window.location.href = "https://side-menu.onrender.com/";
     }
 }
 
